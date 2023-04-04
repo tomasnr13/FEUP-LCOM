@@ -1,0 +1,10 @@
+digraph "changepos_spshot"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="changepos_spshot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="muda o elemento passado por ls para a posicao (x,y)."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="move_spshot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spaceship_8h.html#a65c88f5612d85233a9c9799d7e7a1528",tooltip="move verticalemnte em speed o elemento en passado como argumento."];
+}

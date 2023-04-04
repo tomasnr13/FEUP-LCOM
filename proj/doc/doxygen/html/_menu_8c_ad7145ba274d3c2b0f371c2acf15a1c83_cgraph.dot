@@ -1,0 +1,21 @@
+digraph "load_menu_sprites"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="load_menu_sprites",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Imprime os sprites do menu."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="print_score",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_g_ame_8c.html#a4ccd6296e1b4fc39229ee641f33dd039",tooltip="imprime no ecra, nas posicoes espicificadas por x e y, os sprites relativos ao valor de score."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="create_score_sprites",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_g_ame_8c.html#ab9db09bce218e3e0d24461ce5ea06b97",tooltip="cria na posicao x e y os sprites do score."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="create_sprite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sprite.html#ga44296560184704089b03b7b68c0b71ac",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="getScoreArr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_g_ame_8c.html#a09cea5ed65e18211f8c842c171b9fc57",tooltip=" "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="print_sprite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sprite.html#ga7a159af8a84bb09c896edccff25275a4",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="color_pixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$graphic_8c.html#afa705001911d815ef1723ede0c467783",tooltip="coloriza um pixel na posicao (x,y) com a cor color."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

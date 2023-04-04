@@ -1,0 +1,14 @@
+digraph "check_pixel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="check_pixel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="verifica se o pixel especificado por pos esta colorizado com a cor color."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="check",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_g_ame_8h.html#a9c97b213e6f66e28d2a0ab304bbaca56",tooltip="verifica se o sprite sp contem a cor color nalgum dos seus pixeis."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="collision_en_shot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_g_ame_8h.html#a9a90f0b7ae6a9254ad747336557be808",tooltip="verifica se o tiro enshot do elemento en colidiu ou com o sprite de sp ou com um dos sprites de def."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="collision_shot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_g_ame_8h.html#a499b09a2b66fdac8edfb421af3e57dca",tooltip="verifica se o tiro spshot do elemento sp colidiu com uma das sprites do inimigo en."];
+}

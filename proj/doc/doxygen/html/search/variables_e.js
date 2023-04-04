@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['scancode_568',['scancode',['../_g_ame_8h.html#abd57ba6a5c3b3e31e8fb3c7d727ffe4b',1,'scancode():&#160;Keyboard.c'],['../_keyboard_8c.html#abd57ba6a5c3b3e31e8fb3c7d727ffe4b',1,'scancode():&#160;Keyboard.c'],['../_keyboard_8h.html#abd57ba6a5c3b3e31e8fb3c7d727ffe4b',1,'scancode():&#160;Keyboard.c'],['../_menu_8c.html#abd57ba6a5c3b3e31e8fb3c7d727ffe4b',1,'scancode():&#160;Menu.c']]],
+  ['scancode_5fmouse_569',['scancode_mouse',['../_menu_8c.html#a8d862bd4157e165623c5d64808874cdf',1,'scancode_mouse():&#160;Menu.c'],['../mouse_8h.html#a8d862bd4157e165623c5d64808874cdf',1,'scancode_mouse():&#160;Menu.c']]],
+  ['score_570',['score',['../_g_ame_8c.html#aef160b7437d94056f1dc59646cd5b87d',1,'score():&#160;GAme.c'],['../_g_ame_8h.html#aef160b7437d94056f1dc59646cd5b87d',1,'score():&#160;GAme.c']]],
+  ['seis_571',['seis',['../_g_ame_8h.html#a6c5c0b799d9ccf6d8f8a35cbea45c8dd',1,'seis():&#160;Menu.c'],['../_menu_8c.html#a6c5c0b799d9ccf6d8f8a35cbea45c8dd',1,'seis():&#160;Menu.c']]],
+  ['sete_572',['sete',['../_g_ame_8h.html#a609b1835a6a7fdc462529225f038a693',1,'sete():&#160;Menu.c'],['../_menu_8c.html#a609b1835a6a7fdc462529225f038a693',1,'sete():&#160;Menu.c']]],
+  ['shoot_573',['shoot',['../_g_ame_8c.html#afc08a4e6f4d489d2e3590c3c705e6905',1,'GAme.c']]],
+  ['shot_574',['shot',['../struct_en_shot.html#aaa11d8e961f13409a19b402e2d5f777b',1,'EnShot::shot()'],['../struct_sp_shot.html#aaa11d8e961f13409a19b402e2d5f777b',1,'SpShot::shot()']]],
+  ['size_575',['size',['../_g_ame_8h.html#ae5dc6ffcd9b7605c7787791e40cc6bb0',1,'size():&#160;Menu.c'],['../_keyboard_8h.html#ae5dc6ffcd9b7605c7787791e40cc6bb0',1,'size():&#160;Menu.c'],['../_menu_8c.html#ae5dc6ffcd9b7605c7787791e40cc6bb0',1,'size():&#160;Menu.c']]],
+  ['sp_576',['sp',['../struct_deathstar.html#a02c072c7a9012433f96792739f49fee6',1,'Deathstar::sp()'],['../struct_tiefighter.html#a02c072c7a9012433f96792739f49fee6',1,'Tiefighter::sp()'],['../struct_spaceship.html#a02c072c7a9012433f96792739f49fee6',1,'Spaceship::sp()']]],
+  ['sp1_577',['sp1',['../struct_defense.html#af4d9a3ceb7f28d091c0e6d2e067b3d45',1,'Defense']]],
+  ['sp2_578',['sp2',['../struct_defense.html#ad388e0d92ba20074ee056d772b20f095',1,'Defense']]],
+  ['sp3_579',['sp3',['../struct_defense.html#ad4055c5cdd13d508b7a5c76d3f1063ab',1,'Defense']]],
+  ['sp4_580',['sp4',['../struct_defense.html#a1f1fc6d99e6f89ad4ac0ab1cc132e2ac',1,'Defense']]],
+  ['sp_5fshot_5fin_581',['sp_shot_in',['../_g_ame_8c.html#a6a0cc950f3b2b621a161eae3b51e493a',1,'GAme.c']]],
+  ['speed_582',['speed',['../struct_deathstar.html#a91db7b3c48de4dc536c624804d6df03f',1,'Deathstar::speed()'],['../struct_tiefighter.html#a91db7b3c48de4dc536c624804d6df03f',1,'Tiefighter::speed()'],['../struct_en_shot.html#a91db7b3c48de4dc536c624804d6df03f',1,'EnShot::speed()'],['../struct_enemies.html#a91db7b3c48de4dc536c624804d6df03f',1,'Enemies::speed()'],['../struct_sp_shot.html#a91db7b3c48de4dc536c624804d6df03f',1,'SpShot::speed()'],['../struct_spaceship.html#a91db7b3c48de4dc536c624804d6df03f',1,'Spaceship::speed()']]],
+  ['sps_583',['sps',['../_menu_8c.html#a2e685612fd79f63503bb06dc9cdc181c',1,'Menu.c']]],
+  ['spshot_584',['spshot',['../struct_spaceship.html#a6003bffd88baa395cdd1557cce2125d7',1,'Spaceship']]]
+];

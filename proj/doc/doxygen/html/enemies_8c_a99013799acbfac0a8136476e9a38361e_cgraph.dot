@@ -1,0 +1,12 @@
+digraph "changepos_kb"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="changepos_kb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="move o elemento en passado como argumento , dependendo do seu speed e do valor de counter ."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="changepos_en",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$enemies_8c.html#acb5953a31eeeacbaa5d9c716497ab743",tooltip="muda em diff a posicao dos elementos de tief e verifica se eles nao passam do limite vertical(690)."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="new_curr_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$enemies_8c.html#af0fbf97eafafe839d0abf28a630f11a7",tooltip="atualiza o membro curr_y do elemento passado por argumento."];
+}

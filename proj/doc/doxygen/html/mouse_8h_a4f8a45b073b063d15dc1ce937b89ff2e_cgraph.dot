@@ -1,0 +1,18 @@
+digraph "disable_interrupts"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="disable_interrupts",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="desativa as interrupcoes do mouse."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="issue_command",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mouse_8c.html#a5ca96afb5f587de11c9499895d13373a",tooltip="escreve para o command register o comando especificado no argumento."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="util_sys_inb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mouse_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4",tooltip="le o status do timer."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="read_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mouse_8c.html#ab136bfb72a2c0ee322ee1e7f351a2de9",tooltip="retorna a data lida do output_buffer, se esta estiver disponivel"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="write_data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mouse_8c.html#aaece428e67819504b3406ba14ef38c48",tooltip="escreve o comando data para o endereço 0x60."];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

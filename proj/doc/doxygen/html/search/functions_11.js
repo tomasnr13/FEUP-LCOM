@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['vg_5fclear_5fscreen_514',['vg_clear_screen',['../graphic_8c.html#a3541d07f307db72cac3911f3f26573a4',1,'vg_clear_screen():&#160;graphic.c'],['../graphic_8h.html#a3541d07f307db72cac3911f3f26573a4',1,'vg_clear_screen():&#160;graphic.c']]],
+  ['vg_5fdraw_5fhline_515',['vg_draw_hline',['../graphic_8c.html#a5e5b25bd525250f61f40b9e9f212d5e6',1,'vg_draw_hline(uint16_t x, uint16_t y, uint16_t len, uint32_t color):&#160;graphic.c'],['../graphic_8h.html#a5e5b25bd525250f61f40b9e9f212d5e6',1,'vg_draw_hline(uint16_t x, uint16_t y, uint16_t len, uint32_t color):&#160;graphic.c']]],
+  ['vg_5fdraw_5frectangle_516',['vg_draw_rectangle',['../graphic_8c.html#a99d2da2559e11200c6b40c469e9977ec',1,'vg_draw_rectangle(uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint32_t color):&#160;graphic.c'],['../graphic_8h.html#a99d2da2559e11200c6b40c469e9977ec',1,'vg_draw_rectangle(uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint32_t color):&#160;graphic.c']]],
+  ['video_5fpattern_517',['video_pattern',['../_g_ame_8c.html#af023044539eb002f0562474c4438fc3c',1,'video_pattern(uint16_t mode, uint8_t no_rectangles, uint32_t first, uint8_t step):&#160;GAme.c'],['../_g_ame_8h.html#af023044539eb002f0562474c4438fc3c',1,'video_pattern(uint16_t mode, uint8_t no_rectangles, uint32_t first, uint8_t step):&#160;GAme.c']]],
+  ['video_5frectangle_518',['video_rectangle',['../_g_ame_8c.html#a6deb0127691fc3f9e816d4dcc3398969',1,'video_rectangle(uint16_t mode, uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint32_t color):&#160;GAme.c'],['../_g_ame_8h.html#a6deb0127691fc3f9e816d4dcc3398969',1,'video_rectangle(uint16_t mode, uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint32_t color):&#160;GAme.c']]]
+];

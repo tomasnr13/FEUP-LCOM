@@ -1,0 +1,26 @@
+digraph "print_time"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="print_time",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Imprime o tempo do dia em horas/minutos/segundos no ecrã"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="print_hours",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8c.html#aa4e1ee1a28310f45f17739adda3ce41e",tooltip="Imprime as horas no ecrã"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="create_time_sprites",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8c.html#a12714671ba13514ea4a9407790c96874",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="create_sprite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sprite.html#ga44296560184704089b03b7b68c0b71ac",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="print_sprite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sprite.html#ga7a159af8a84bb09c896edccff25275a4",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="color_pixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$graphic_8c.html#afa705001911d815ef1723ede0c467783",tooltip="coloriza um pixel na posicao (x,y) com a cor color."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="print_minutes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8c.html#aa9400df8ee946431e60995db995bb37f",tooltip="Imprime os minutos no ecrã"];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="print_seconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8c.html#a790e75c6fd651a4b820c572351ddf54e",tooltip="Imprime os segundos no ecrã"];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

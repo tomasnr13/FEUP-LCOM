@@ -1,0 +1,18 @@
+digraph "load_Menu"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="load_Menu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Carrega o ecrã inicial do menu numa frame rate fixa."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="handle_NewGame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8h.html#a63dbf12b8d56e422c548c758f7248c0c",tooltip="Trata da opção New Game do menu, carrega o jogo."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="handle_option",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8h.html#aa283ff2c61ef57157639de3df5df28ab",tooltip="Trata da opção de menu que for passada como parâmetro."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="load_Menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8h.html#afea940cd55650dc9c5b8d4a0d297d0d5",tooltip="Carrega o ecrã inicial do menu numa frame rate fixa."];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="proj_main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

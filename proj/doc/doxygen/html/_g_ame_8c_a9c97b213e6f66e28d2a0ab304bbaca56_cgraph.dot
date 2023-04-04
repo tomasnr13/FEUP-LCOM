@@ -1,0 +1,12 @@
+digraph "check"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="check",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="verifica se o sprite sp contem a cor color nalgum dos seus pixeis."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="check_pixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$graphic_8c.html#a5d45d2e63cad13afd03635b8b85b6f77",tooltip="verifica se o pixel especificado por pos esta colorizado com a cor color."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="gethres",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$graphic_8c.html#a7e76810aa098a9a6d7e18deff615a009",tooltip="retorna a resolucao horizontal do ecra, relativa ao modo utilizado."];
+}

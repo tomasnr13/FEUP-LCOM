@@ -1,0 +1,18 @@
+digraph "sys_inb_counter"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="sys_inb_counter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="issue_command_kb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_keyboard_8h.html#a4b9f00785763deff46560780f2d7b67f",tooltip="escreve o comando cmd no command register se este tiver disponivel."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="kbd_ih",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_keyboard_8h.html#a3b35eecf289446fe614818dd6ab6d5bf",tooltip="interrupt handler do teclado."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="kbd_read_poll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_keyboard_8h.html#a66483d10b4c6a6ab6cb32300839aa704",tooltip="le as informacoes do teclado em modo de polling."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="read_data_kb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_keyboard_8h.html#ad603dd0ac99d25773aa7291b3b9d113f",tooltip="le a data do output buffer."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="write_data_kb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_keyboard_8h.html#abbd1f843a8b42e64030dc27d73d42cbf",tooltip="escreve os dados data para o endereço 0x60."];
+}

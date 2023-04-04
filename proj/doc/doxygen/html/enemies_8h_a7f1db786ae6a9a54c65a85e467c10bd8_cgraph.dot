@@ -1,0 +1,17 @@
+digraph "print_enemies"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="print_enemies",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="se final==true, imprime no ecra apenas o seu membro ds, se nao imprime todos os memebros vivos presen..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="print_ds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$enemies_8c.html#a48c81eb822f2c8998fe35c3626c6ec0c",tooltip="imprime no ecrã a sprite do elemento passado como argumento."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="print_sprite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sprite.html#ga7a159af8a84bb09c896edccff25275a4",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="color_pixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$graphic_8c.html#afa705001911d815ef1723ede0c467783",tooltip="coloriza um pixel na posicao (x,y) com a cor color."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="print_tief",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$enemies_8c.html#af33d910ba73b4f282cd320ad1942c2be",tooltip="imprime no ecrã a sprite do elemento passado como argumento."];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

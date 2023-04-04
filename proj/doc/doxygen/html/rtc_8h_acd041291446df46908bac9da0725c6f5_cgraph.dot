@@ -1,0 +1,16 @@
+digraph "rtc_read_reg"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="rtc_read_reg",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Ler conteudo de registos do rtc."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Convert_bcd_to_decimal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rtc_8c.html#ad5f158b837cca05efca152d09cea4918",tooltip="Converte número em formato BCD em decimal."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="wait_valid_rtc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rtc_8c.html#a788e56085fe57e083210ad3c8887ecb1",tooltip="Performa a espera até a receção de um rtc válido para operações."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="disable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rtc_8c.html#a8cfbbe53c1cf6e3054736daea3044c0f",tooltip="Desative o RTC."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="enable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rtc_8c.html#a486f22824bd83c5308a0d70ffac6f758",tooltip="Ativa o RTC."];
+}

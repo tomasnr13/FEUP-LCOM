@@ -1,0 +1,27 @@
+digraph "create_time_sprites"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="create_time_sprites",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="print_hours",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8h.html#aa4e1ee1a28310f45f17739adda3ce41e",tooltip="Imprime as horas no ecrã"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="print_time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8h.html#a1d3b9e2f6a84979d50519ae6cdfe6361",tooltip="Imprime o tempo do dia em horas/minutos/segundos no ecrã"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="load_Menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8h.html#afea940cd55650dc9c5b8d4a0d297d0d5",tooltip="Carrega o ecrã inicial do menu numa frame rate fixa."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="handle_NewGame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8h.html#a63dbf12b8d56e422c548c758f7248c0c",tooltip="Trata da opção New Game do menu, carrega o jogo."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="handle_option",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8h.html#aa283ff2c61ef57157639de3df5df28ab",tooltip="Trata da opção de menu que for passada como parâmetro."];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="proj_main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a2a16f651eccbd248e1ad3b3b924b143b",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="print_minutes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8h.html#aa9400df8ee946431e60995db995bb37f",tooltip="Imprime os minutos no ecrã"];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="print_seconds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menu_8h.html#a790e75c6fd651a4b820c572351ddf54e",tooltip="Imprime os segundos no ecrã"];
+  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

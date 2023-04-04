@@ -1,0 +1,14 @@
+digraph "changepos_kbn"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="changepos_kbn",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="move o elemento en passado como argumento para a esquerda, consoante o seu speed e do valor de counte..."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="changepos_sp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spaceship_8c.html#a8f9b2fe04b00a5450c7bf3d4fe06b1b3",tooltip="muda a posicao do elemento sp passado como argumento."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="changepos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sprite.html#gac8dfdcf29f4a4526bd7996ff2a86eace",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="gethres",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$graphic_8c.html#a7e76810aa098a9a6d7e18deff615a009",tooltip="retorna a resolucao horizontal do ecra, relativa ao modo utilizado."];
+}

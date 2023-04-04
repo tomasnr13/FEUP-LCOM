@@ -1,0 +1,10 @@
+digraph "read_data"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="read_data",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="retorna a data lida do output_buffer, se esta estiver disponivel"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="disable_interrupts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mouse_8h.html#a4f8a45b073b063d15dc1ce937b89ff2e",tooltip="desativa as interrupcoes do mouse."];
+}
